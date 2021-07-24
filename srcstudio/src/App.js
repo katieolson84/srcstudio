@@ -53,6 +53,7 @@ const StyledContainer = styled.div`
     align-items: center;
     padding: 1rem;
     width: 100vw;
+    z-index: 10;
     .logo{
       width: 170px;
     }
@@ -135,7 +136,7 @@ const StyledContainer = styled.div`
   }
 
   }
-  @media srceen and (orientation: landscape) {
+  /* @media srceen and (orientation: landscape) {
     .top{
     width: 30%;
     right: 0;
@@ -143,7 +144,7 @@ const StyledContainer = styled.div`
   }
   .bottom{
     width: 20%;
-  }
+  } */
 
   }
 `
