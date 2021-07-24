@@ -52,8 +52,13 @@ const StyledContainer = styled.div`
     justify-content: center;
     align-items: center;
     padding: 1rem;
-    width: 100vw;
+    position: absolute;
+    left:0;
+    right: 0;
+    top:50%;
+    bottom: 50%;
     z-index: 10;
+    width:100%;
     .logo{
       width: 170px;
     }
@@ -84,12 +89,14 @@ const StyledContainer = styled.div`
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
   }
   .bottom{
     position: absolute;
     bottom: 0;
     left: 0;
     width: 90%;
+    z-index: 1;
   }
 
   @media only screen and (min-width: 768px){
@@ -135,18 +142,7 @@ const StyledContainer = styled.div`
     }
   }
 
-  }
-  /* @media srceen and (orientation: landscape) {
-    .top{
-    width: 30%;
-    right: 0;
-    left: auto;
-  }
-  .bottom{
-    width: 20%;
-  } */
-
-  }
+  
 `
 
 export default App;
