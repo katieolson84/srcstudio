@@ -43,10 +43,9 @@ const StyledContainer = styled.div`
   justify-content: center;
   align-items: center;
   height: 100vh;
-  border: green solid 1px;
   text-align: center;
   width: 100%;
-  overflow-x: hidden;
+  overflow: hidden;
 
   .content{
     display: flex;
