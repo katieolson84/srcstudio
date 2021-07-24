@@ -45,8 +45,8 @@ const StyledContainer = styled.div`
   height: 100vh;
   text-align: center;
   width: 100%;
-  overflow-y: hidden;
-  overflow-x: hidden;
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
 
   .content{
     display: flex;
@@ -73,9 +73,11 @@ const StyledContainer = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 40%;
+    width: 30%;
     a{
-      width: 1rem;
+      img{
+        width: 1.2rem;
+      }
     }
   }
   .top{
