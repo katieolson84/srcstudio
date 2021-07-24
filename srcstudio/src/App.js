@@ -136,7 +136,15 @@ const StyledContainer = styled.div`
 
   }
   @media srceen and (orientation: landscape) {
-    position: fixed;
+    .top{
+    width: 70%;
+    right: 0;
+    left: auto;
+  }
+  .bottom{
+    width: 60%;
+  }
+
   }
 `
 
