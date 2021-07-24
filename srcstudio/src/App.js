@@ -45,8 +45,6 @@ const StyledContainer = styled.div`
   height: 100vh;
   text-align: center;
   width: 100%;
-  /* overflow-y: hidden;
-  overflow-x: hidden; */
 
   .content{
     display: flex;
@@ -136,6 +134,9 @@ const StyledContainer = styled.div`
     }
   }
 
+  }
+  @media srceen and (orientation: landscape) {
+    position: fixed;
   }
 `
 
